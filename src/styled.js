@@ -9,13 +9,14 @@ export const Section = styled.section`
 export const Body = styled.div`
     padding: 100px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 `;
 
 export const Options = styled.div`
     display: flex;
     flex-direction: column;
+    margin-right: 200px;
     >h2{
         font-family: inherit;
         color: #1877f2;
@@ -145,6 +146,9 @@ export const Login = styled.input`
     width: 330px;
     border: 1px solid #dddfe2;
     color: #1d2129;
+    &:visited{
+        background-color: black;
+    }
 `;
 
 export const Password = styled.input`
